@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&subset=latin-ext');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+	font-family: 'Asap', sans serif;
+}
+
+body
+{
+	background-color:#24272E;
+}
+
+header
+{
+   background:white;
+   padding: 20px;
+   
+}
+
+header>h1
+{
+  color:#24272E;
+  text-align:center;
+}
+
+.score-board{
+  margin:20px auto;
+  border: 3px solid white;
+  border-radius:10px;
+  width: 200px;
+  text-align:center;
+  font-size:40px;
+  color:white;
+  padding:20px;
+  position:relative;
+}
+
+.badges
+{
+  background-color:#E25840;
+  padding:5px;
+  font-size:14px;
+  
+}
+
+#player-label
+{
+  position:absolute;
+  top:15px;
+  left:-25px;
+}
+
+#comp-label
+{
+	position:absolute;
+	bottom:15px;
+	right:-30px;	
+}
+
+.message
+{
+	text-align:center;
+	margin:20px auto;
+	min-height:30px;
+}
+
+.message>p
+{
+	font-size:20px;
+	color:white;
+}
+
+
+#game-board
+{
+	width: 300px;
+    margin: 20px auto;
+	text-align: center;
+	min-height:200px;
+}
+
+.single-square
+{
+	
+	width:90px;
+	height:90px;
+	border:3px solid white;
+	border-radius:30%;
+	box-shadow:0 5px 15px -5px #00000070;
+	text-align:center;
+	padding: 9px;
+	margin: 5px;
+	font-size:60px;
+	color:white;
+	float:left;
+}
+
+.single-square:hover
+{
+	cursor:pointer;
+	background-color:#24172D;
+	transition: 0.3s;
+}
+
+#next-round
+{
+	color: #76e240;
+}
+
+#next-round:hover{
+	cursor:pointer;
+	background-color: background-color:#24171C;
+}
+
